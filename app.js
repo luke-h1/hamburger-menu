@@ -1,15 +1,15 @@
-//close nav 
+//close nav
 
-const closeButton = document.querySelector(".close-nav"); 
-const nav = document.querySelector(".nav"); 
+const closeButton = document.querySelector('.close-nav');
+const nav = document.querySelector('.nav');
 
-closeButton.addEventListener("click", () => { 
-    nav.classList.remove("navigation-open") ; 
-})
+closeButton.addEventListener('click', () => {
+    nav.classList.remove('navigation-open');
+});
 
-//open nav 
+//open nav
 
-const openButton = document.querySelector(".open-nav"); 
-openButton.addEventListener("click", () => { 
-    nav.classList.add("navigation-open"); 
-}); 
+const openButton = document.querySelector('.open-nav');
+openButton.addEventListener('click', () => {
+    nav.classList.add('navigation-open');
+});
